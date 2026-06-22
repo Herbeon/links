@@ -1,0 +1,119 @@
+:root{
+    --black: #180e4b;
+    --violet: #4a00ff;
+    --purple: #721ffe;
+    --white:#e5fdfe;
+    --yellow:#f8fcc9;
+    --green:#69dab1;
+    --lavender:#ad96ff;
+    --cyan:#8efff8;
+    --teal:#1f9495;
+}
+
+@font-face {
+  font-family: 'Averia Sans Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/averiasanslibre/v20/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rocksalt/v24/MwQ0bhv11fWD6QsAVOZrt0M6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: Averia Sans Libre, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    min-height: min-content;
+    color: var(--black);
+    background-color: var(--yellow);
+    /* background-image: url(images/roundedbox.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center; */
+    max-width: 800px;
+    width:fit-content;
+}
+p{
+    
+    line-height: 1.6;
+    margin: auto;
+    padding: 100px;
+    padding-right:370px;
+    color: var(--black);
+    background-image: url(images/roundedbox.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 60% 200px;
+    background-position: left;
+    /* background-image: url(images/roundedbox.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center; */
+}
+
+a{
+    color: var(--teal);
+}
+a:hover, a:active{
+    color:var(--cyan);
+}
+a:visited,a:active{
+    color:var(--lavender);
+}
+
+
+h1 {
+    font-family: Rock Salt,sans-serif;
+    font-size: xx-large;
+    color: var(--violet);
+    border-bottom: 2px dashed var(--lavender);
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom:3%;
+    
+}
+
+footer{
+    display:block;
+    padding:8%;
+    padding-top: 20%;
+    background-color: var(--yellow);
+    text-align: right;
+}
+nav{
+    display:flex;
+    align-items: right;
+}
+
+.cosmoji{
+    height: 25px;
+}
+
+.pagedoll{
+    max-height: 75%;
+    position:fixed;
+    right: 150px;
+    bottom: 50px;
+    z-index: 100;
+    
+}
+.pagedoll:hover{
+    max-height: 75%;
+    position:fixed;
+    right: 150px;
+    bottom: 50px;
+    z-index: 100;
+    content: url(images/herbyrbhi.png);
+}

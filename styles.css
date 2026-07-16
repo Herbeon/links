@@ -11,20 +11,20 @@
 }
 
 @font-face {
-  font-family: 'Averia Sans Libre';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/averiasanslibre/v20/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'Averia Sans Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/averiasanslibre/v20/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: 'Rock Salt';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rocksalt/v24/MwQ0bhv11fWD6QsAVOZrt0M6.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rocksalt/v24/MwQ0bhv11fWD6QsAVOZrt0M6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body {
@@ -37,36 +37,55 @@ body {
     min-height: min-content;
     color: var(--black);
     background-color: var(--yellow);
+    background-image: url(images/superlightbox.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
     /* background-image: url(images/roundedbox.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center; */
-    max-width: 800px;
+    max-width: 50%;
     width:fit-content;
+
 }
+
 p{
-    
     line-height: 1.6;
-    margin: auto;
-    padding: 100px;
-    padding-right:370px;
+    margin: 5%;
+    padding: 5%;
     color: var(--black);
-    background-image: url(images/roundedbox.png);
+    background-color: var(--green);
+    max-width: fit-content;
+    display:flex;
+    flex-direction: column;
+    /* background-image: url(images/roundedbox.png);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 60% 200px;
-    background-position: left;
+    background-position: left; */
     /* background-image: url(images/roundedbox.png);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center; */
 }
 
-a{
-    color: var(--teal);
+p2{    
+    line-height: 1.6;
+    margin: 5%;
+    padding: 5%;
+    color: var(--black);
+    background-color: var(--cyan);
+    max-width: fit-content;
+    display:flex;
+    flex-direction: column;
 }
-a:hover, a:active{
+
+a{
+    color:var(--teal);
+}
+a:hover,a:active{
     color:var(--cyan);
 }
 a:visited,a:active{
@@ -89,31 +108,147 @@ footer{
     display:block;
     padding:8%;
     padding-top: 20%;
-    background-color: var(--yellow);
+    background-color: transparent;
     text-align: right;
 }
 nav{
     display:flex;
+    flex-wrap: wrap;
     align-items: right;
+}
+
+button{
+    font-family: Averia Sans Libre, sans-serif;
+    line-height: 1;
+    margin: 5%;
+    padding: 2%;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    min-height: min-content;
+    color: var(--black);
+    background-color: var(--cyan);
+    border-color: var(--black);
+    border-radius: 5px;
+}
+
+button:hover{
+    font-family: Averia Sans Libre, sans-serif;
+    line-height: 1;
+    margin: 5%;
+    padding: 2%;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    min-height: min-content;
+    color: var(--violet);
+    background-color: var(--yellow);
+    border-color: var(--violet);
 }
 
 .cosmoji{
     height: 25px;
 }
 
+@keyframes floating{
+    0% {transform:translateY(0)}
+    30% {transform:translateY(-10px)};
+    100% {transform:translateY(0)};
+}
+
 .pagedoll{
-    max-height: 75%;
-    position:fixed;
+    max-height: 50%;
+    position:absolute;
     right: 150px;
     bottom: 50px;
     z-index: 100;
+    animation-name:floating;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
     
 }
 .pagedoll:hover{
-    max-height: 75%;
-    position:fixed;
+    max-height: 50%;
+    position:absolute;
     right: 150px;
     bottom: 50px;
     z-index: 100;
     content: url(images/herbyrbhi.png);
+    animation-name:floating;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
 }
+
+.leftgrass{
+    max-height: 50%;
+    position:fixed;  
+    opacity: 96%;
+    left:-10px;
+    bottom:-10px;
+    z-index:102;
+    transform-origin: left bottom;
+    animation-name: swishing;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.rightgrass{
+    max-height: 50%;
+    position:fixed;  
+    opacity: 96%;
+    right:-10px;
+    bottom:-10px;
+    z-index:102;
+    transform-origin: right bottom;
+    animation-name: swishing2;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flying {
+    0% {left: 10%; top: 5% }
+    50% {left: 70%; top: 70%}
+    100% {right: 10%; bottom: 5%}
+}
+
+@keyframes spinning {
+    0% {rotate:0deg}
+    69% {rotate: 180deg}
+    100% {rotate:360deg}
+}
+
+@keyframes swishing {
+    0% {rotate:0deg}
+    50% {rotate: 2deg}
+    100% {rotate:0deg}
+}
+@keyframes swishing2 {
+    0% {rotate:0deg}
+    50% {rotate: -2deg}
+    100% {rotate:0deg}
+}
+
+
+.canadian{
+    max-height: 40%;
+    position:absolute;
+    left:150px;
+    top:200px;
+    z-index: 101;
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.cosinmo{
+    position:relative;
+    float:left;
+    margin-right: 5%;
+    margin-left: 10%;
+    max-width: 20%;
+    transform-origin: bottom;
+    animation-name: swishing;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+

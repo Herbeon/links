@@ -279,8 +279,8 @@ button:hover{
 
 .cosinmo{
     position:relative;
-    margin-right: 5%;
-    margin-left:10%;
+    margin-right: 0;
+    margin-left:15%;
     max-width: 60%;
     transform-origin: bottom;
     animation-name: swishing;

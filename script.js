@@ -22,12 +22,15 @@ function byeHerbyrb(){
     }
 }
 
+document.getElementById("foot1").style.visibility = 'hidden';
+document.getElementById("foot2").style.visibility = 'hidden';
 
 window.addEventListener("scroll",function(){
     if(window.scrollY > 300){
         document.getElementById("foot1").style.opacity=(window.scrollY - 300) /100 ;
-
+        document.getElementById("foot1").style.visibility = 'visible';
         document.getElementById("foot2").style.opacity=(window.scrollY - 300) / 100 ;
+        document.getElementById("foot2").style.visibility = 'visible';
 
     }
     else{

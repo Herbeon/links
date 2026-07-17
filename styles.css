@@ -227,6 +227,7 @@ button:hover{
     animation-name: swishing;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
+    pointer-events: none;
 }
 
 .rightgrass{
@@ -240,6 +241,7 @@ button:hover{
     animation-name: swishing2;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
+    pointer-events: none;
 }
 
 @keyframes flying {
@@ -311,7 +313,6 @@ button:hover{
 } */
 
 .doss{
-    visibility: initial;
     position:fixed;
     max-height: 30%;
     right:170px;

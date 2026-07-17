@@ -108,6 +108,7 @@ footer{
     display:block;
     padding:8%;
     padding-top: 20%;
+    margin-left:10%;
     background-color: transparent;
     text-align: right;
 }
@@ -242,7 +243,6 @@ button:hover{
 
 .cosinmo{
     position:relative;
-    float:left;
     margin-right: 5%;
     margin-left: 10%;
     max-width: 20%;
@@ -252,3 +252,8 @@ button:hover{
     animation-iteration-count: infinite;
 }
 
+.flexy{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}

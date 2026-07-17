@@ -111,8 +111,8 @@ a{
     color:var(--teal);
 }
 a:hover,a:active{
-    color:var(--cyan);
-    text-decoration: dashed;
+    color:var(--lavender);
+    text-decoration: underline dashed;
 }
 a:visited,a:active{
     color:var(--lavender);

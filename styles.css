@@ -195,6 +195,7 @@ button:hover{
 
 .pagedoll{
     max-height: 50%;
+    max-width: 30%;
     position:absolute;
     right: 150px;
     bottom: 50px;
@@ -206,6 +207,7 @@ button:hover{
 }
 .pagedoll:hover{
     max-height: 50%;
+    max-width: 30%;
     position:absolute;
     right: 150px;
     bottom: 50px;
@@ -218,6 +220,7 @@ button:hover{
 
 .leftgrass{
     max-height: 50%;
+    max-width: 50%;
     position:fixed;  
     opacity: 96%;
     left:-10px;
@@ -232,6 +235,7 @@ button:hover{
 
 .rightgrass{
     max-height: 50%;
+    max-width: 50%;
     position:fixed;  
     opacity: 96%;
     right:-10px;
@@ -270,6 +274,7 @@ button:hover{
 
 .canadian{
     max-height: 40%;
+    max-width: 20%;
     position:absolute;
     left:150px;
     top:200px;

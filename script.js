@@ -14,7 +14,7 @@ function byeHerbyrb(){
     else{
         ee.style.visibility = 'hidden';
         e2.style.visibility ='hidden';  
-        document.getElementById("cosinmowo").style.visibility = 'hidden';
+        document.getElementById("cosinmowo").style.visibility = 'collapse';
         document.getElementById("grass").style.visibility = 'hidden';
         document.getElementById("foot1").style.visibility = 'hidden';
         document.getElementById("foot2").style.visibility = 'hidden';

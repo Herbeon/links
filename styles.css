@@ -82,11 +82,37 @@ p2{
     flex-direction: column;
 }
 
+p3{    
+    line-height: 1.6;
+    margin-top:5%;
+    margin-bottom: 4%;
+    margin-left:5%;
+    margin-right: 8%;
+    padding: 5%;
+    color: var(--black);
+    background-color: var(--cyan);
+    display:flex;
+    flex-direction: column;
+}
+p4{    
+    line-height: 1.6;
+    margin-top:4%;
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-right: 8%;
+    padding: 5%;
+    color: var(--black);
+    background-color: var(--green);
+    display:flex;
+    flex-direction: column;
+}
+
 a{
     color:var(--teal);
 }
 a:hover,a:active{
     color:var(--cyan);
+    text-decoration: dashed;
 }
 a:visited,a:active{
     color:var(--lavender);
@@ -104,15 +130,25 @@ h1 {
     
 }
 
+header{
+    display:block;
+    margin-left:10%;
+    padding-left:10%;
+    background-color: transparent;
+    text-align: right;
+}
+
 footer{
     display:block;
-    padding:8%;
-    padding-top: 20%;
+    margin-top:10%;
     margin-left:10%;
+    margin-right:5%;
+    padding-left:10%;
     background-color: transparent;
     text-align: right;
 }
 nav{
+    font-size:1em;
     display:flex;
     flex-wrap: wrap;
     align-items: right;
@@ -244,16 +280,47 @@ button:hover{
 .cosinmo{
     position:relative;
     margin-right: 5%;
-    margin-left: 10%;
-    max-width: 20%;
+    margin-left:10%;
+    max-width: 60%;
     transform-origin: bottom;
     animation-name: swishing;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }
 
-.flexy{
+.container{
     display:flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: nowrap;
+}
+.rowtainer{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+
+.rowtainer2{
+    display:flex;
+    flex-direction:column;
+}
+/* .toggles{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    min-width:fit-content;
+} */
+
+.doss{
+    position:fixed;
+    max-height: 30%;
+    right:170px;
+    bottom:0%;
+    z-index: 103;
+}
+.hereby{
+    position:fixed;
+    max-height: 30%;
+    left:170px;
+    bottom:-1%;
+    z-index: 103;
 }

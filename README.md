@@ -1,5 +1,5 @@
 # links
-personal site with links (and a readme..)
+a personal site
 
 # about
 I originally began my personal site in the repo named "herbeon" but in order to submit this project I need to have a readme and herbeon's readme appears on my profile (did not think it through). So this repo will be where I continue my personal site!
@@ -8,8 +8,7 @@ I originally began my personal site in the repo named "herbeon" but in order to 
 * site with an animated pagedoll + about me
 * has links to other accounts n stuff
 * functional on desktop and mobile + resized windows
-* link to a comms site with info on that
+* link to a comms site with info on that - will make a site like that later
 * gallery page?
 * keep code organized so that it is easy to edit....
-* finish before artfight
 * hopefully submit to horizons :D

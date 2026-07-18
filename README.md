@@ -1,5 +1,5 @@
 # links
-my first time programming a personal site! The main purpose of this site was to have links to some other places that I'm on, but I also added some stuff about me and some art decor by me :D overall, I've spent ~8 hours on this site.
+my first time programming a personal site! The main purpose of this site was to have links to some other places that I'm on, but I also added some stuff about me and some art decor by me :D overall, I've spent ~9 hours on this site.
 
 # about
 I originally began my personal site in the repo named "herbeon" but in order to submit this project I need to have a readme and herbeon's readme appears on my profile (did not think it through). This is my new repo! It's called "links" because that was the original purpose of this site. you can check it out on github pages: https://herbeon.github.io/links/
@@ -11,7 +11,7 @@ I originally began my personal site in the repo named "herbeon" but in order to 
 # how I made this site
 Everything on this site is 100% human-made! Since I'm a newbie, I just stuck with the basics and frontend: html, css, javascript. This site is hosted on github pages.
 
- I learned from a bunch of different reference sites + some helpful hack clubbers. The art on here was drawn by me on Krita! (I didn't track the art because I was mostly editing images that I'd drawn before)
+ I learned from a bunch of different reference sites + some helpful hack clubbers. The art on here was drawn by me on Krita! (I didn't track the art because I was mostly editing images that I'd drawn before, but I probably spent 30 min-1 hr during the horizons period)
 
 # goals (done!)
 * site with an animated pagedoll + about me

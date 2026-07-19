@@ -9,7 +9,7 @@ I originally began my personal site in the repo named "herbeon" but in order to 
 ![second screenshot of site: bottom](/images/screenshot2.png)
 
 # how I made this site
-Everything on this site is 100% human-made! Since I'm a newbie, I just stuck with the basics and frontend: html, css, javascript. This site is hosted on github pages.
+Everything on this site is 100% human-made (no AI was used)! Since I'm a newbie, I just stuck with the basics and frontend: html, css, javascript. This site is hosted on github pages.
 
  I learned from a bunch of different reference sites + some helpful hack clubbers. The art on here was drawn by me on Krita! (I didn't track the art because I was mostly editing images that I'd drawn before, but I probably spent 30 min-1 hr during the horizons period)
 
